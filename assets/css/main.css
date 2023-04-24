@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: rgb(59, 0, 155) !important;
+			color: rgb(0, 0, 0) !important;
 		}
 
 	strong, b {
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: rgb(59, 0, 155);
+		color: rgb(0, 0, 0);
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: rgb(59, 0, 155);
+			border-color: rgb(0, 0, 0);
 		}
 
 	select {
@@ -1953,7 +1953,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: rgb(59, 0, 155);
+			border-color: rgb(0, 0, 0);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2402,7 +2402,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: rgb(59, 0, 155);
+				background: rgb(0, 0, 0);
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2618,7 +2618,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: rgb(59, 0, 155);
+			background-color: rgb(0, 0, 0);
 			color: #ffffff !important;
 		}
 
@@ -2626,14 +2626,14 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: rgb(59, 0, 155);
+				background-color: rgb(0, 0, 0);
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: rgb(59, 0, 155);
+				background-color: rgb(0, 0, 0);
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2711,28 +2711,29 @@ input, select, textarea {
 		width: 23em;
 		right: 0;
 	}
-
+		/*Titulo grande TOMAS ECHEVERRI PUERTA*/
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #fffefe;
-			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+			color: #ffffff;
+			text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
 		}
-
+			
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
 				color: #ffffff;
 				
 			}
 
 		#header header p {
-			color: #000000;
+			color: #ffffff;
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #000000;
 			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 		}
-
+			/*Color cuando el mouse pasa por encima del menu*/
 			#header a:hover {
-				color: #ffffff !important;
+				color: #000000 !important;
+				text-shadow: -1px -1px  0 #ffffff, 1px  -1px  0 #ffffff, -1px  1px  0 #ffffff, 1px  1px  0 #ffffff;
 			}
 
 		#header > header {
@@ -2776,7 +2777,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #b7eadc;
+					color: #ffffff;
 				}
 
 		#header > nav {
@@ -2809,10 +2810,10 @@ input, select, textarea {
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
-
+						/*Fondo del seleccionado y color de hover*/
 						#header > nav ul li a.active {
-							background: #ffffff4d;
-							color: rgb(0, 0, 0) !important;
+							background: #00000067;
+							
 						}
 
 					#header > nav ul li:first-child {
@@ -2843,7 +2844,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: rgb(59, 0, 155);
+		background: rgb(0, 0, 0);
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
@@ -3080,7 +3081,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: rgb(59, 0, 155);
+						background: rgb(0, 0, 0);
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
