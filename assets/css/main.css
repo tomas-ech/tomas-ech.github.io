@@ -2193,9 +2193,10 @@ input, select, textarea {
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 0;
+				max-width: 100%;
 				display: block;
-				width: 100%;
+				width: fit-content;
 			}
 
 		.image.main {
@@ -2705,12 +2706,12 @@ input, select, textarea {
 		 20%, rgba(239,255,0,0.8) 40%, rgba(0,255,0,0.8) 60%, rgba(0,0,255,0.8) 80%,
 		rgba(200,0,255,0.8) 100%);
 		color: #000000;
-		height: 100%;
+		height: 100vh;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 25%;
 		right: 0;
 	}
 		/*Titulo grande TOMAS ECHEVERRI PUERTA*/
@@ -2743,13 +2744,14 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 3em;
+			padding: 55px;
 		}
 
 			#header > header .avatar {
 				display: block;
 				margin: 0 auto 2.25em auto;
-				width: 8em;
+				width: 200px;
+				height: 200px;
 			}
 
 			#header > header h1 {
@@ -2763,22 +2765,19 @@ input, select, textarea {
 				margin: 1em 0 0 0;
 			}
 
-		#header > footer {
-			-moz-flex-shrink: 0;
-			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
-			flex-shrink: 0;
-			bottom: 0;
-			left: 0;
-			padding: 2em;
-			width: 100%;
-		}
-
-			#header > footer .icons {
+			#header > header .icons {
+				-moz-flex-shrink: 0;
+				-webkit-flex-shrink: 0;
+				-ms-flex-shrink: 0;
+				flex-shrink: 0;
+				bottom: 0;
+				left: 0;
+				padding: 1em 1em 0 1em;
+				width: 100%;
 				margin: 0;
 			}
 
-				#header > footer .icons li a {
+				#header > header .icons li a {
 					color: #ffffff;
 				}
 
@@ -2890,7 +2889,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 21em;
+				width: 25%;
 			}
 
 				#header > header {
@@ -2904,7 +2903,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-right: 25%;
 			}
 
 		/* Main */
@@ -2928,13 +2927,13 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 25%;
 			}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 25%;
 			}
 
 	}
@@ -3320,4 +3319,12 @@ input, select, textarea {
 				padding: 0;
 			}
 
+			
+
+	}
+
+	.btn-juego {
+		border: 1px solid red;
+		text-decoration: none;
+		padding: 12px 28px;
 	}
