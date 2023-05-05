@@ -1543,7 +1543,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: #c0c0c073;
+			background-color: #ffffff73;
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1669,7 +1669,7 @@ input, select, textarea {
 
 		.project .image img {
 			width: 100%;
-			padding: 0 0;
+			padding: 0 0px;
 			border: 1px solid black;
 		}
 
